@@ -11,4 +11,6 @@ print('Olar {nome}')
 
 long_string = "  Caio esta em Recife  "
 
-print(long_string.lstrip() + ", e nao em Ilheus")
+# print(long_string.lstrip() + ", e nao em Ilheus")
+
+print(long_string.rstrip() + ", e nao em Ilheus")
